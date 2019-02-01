@@ -3,12 +3,12 @@ Treehouse Techdegree:
 FSJS project 1 - A Random Quote Generator
 By Andre Otte
 ******************************************/
-// Script fail
+// Script file
 
 // Generates random quote
 function getRandomQuote(arr) {
   var item = arr[Math.floor(Math.random()*arr.length)];
-  return item; 
+  return item;
 }
 
 // Sends string to html file to print to page
