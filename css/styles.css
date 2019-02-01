@@ -1,7 +1,7 @@
 /* Random Quote Generator Styles */
 
 body {
-  background-color: #36b55c;
+  /*background-color: #36b55c;*/
   color: white;
   font-family: 'Playfair Display', serif;
 }
@@ -13,6 +13,8 @@ body {
   right: 10%;
   width: 80%;
   line-height: .5;
+  /* Ensures that when background color is light, the text will still be readable */
+  -webkit-text-stroke: .5px black;
 }
 
 .quote {
@@ -43,7 +45,7 @@ body {
 }
 
 .source {
-  font-size: 1.25rem;;
+  font-size: 2rem;;
   letter-spacing: 0.05em;
   line-height: 1.1;
   text-align: right;
@@ -66,6 +68,13 @@ body {
 .year:before {
   content: ", ";
   font-style: normal;
+}
+
+.category {
+  text-align: right;
+  font-size: 1.25rem;
+  font-style: normal;
+  margin-right: 10em;
 }
 
 #loadQuote {
