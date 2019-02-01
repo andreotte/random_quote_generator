@@ -8,7 +8,7 @@ By Andre Otte
 // Generates random quote
 function getRandomQuote(arr) {
   var item = arr[Math.floor(Math.random()*arr.length)];
-  return item; //This returns an object */
+  return item; 
 }
 
 // Sends string to html file to print to page
